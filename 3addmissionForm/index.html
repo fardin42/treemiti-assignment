@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Addmission Form</title>
+</head>
+<body>
+ <h1 align="center">STUDENT REGISTRATION FORM</h1>   
+ <form action="">
+    <table width="700" bgcolor="#6a5acd" cellpadding="10px" align="center">
+        <tbody>
+            <tr>
+                <!-- FIRST NAME -->
+                <td>
+                    <label for="firstName">FIRST NAME</label>
+                </td>
+                <td><input type="text" id="firstName">&lpar;max 30 characters a&dash;z and A&dash;Z&rpar;</td>
+            </tr>
+            <!-- LASTNAME -->
+            <tr>
+                <td><label for="lastName">LAST NAME</label></td>
+                <td><input type="text" id="lastName">&lpar;max 30 characters a&dash;z and A&dash;Z&rpar;</td>
+            </tr>
+            <!-- DATE OF BIRTH -->
+            <tr>
+                <td><label for="dateOfBirth">DATE OF BIRTH</label></td>
+                <td><input type="date" id="dateOfBirth"></td>
+            </tr>
+            <!-- EMAIL -->
+            <tr>
+                <td><label for="emailId">EMAIL ID</label></td>
+                <td><input type="email" id="emailId"></td>
+            </tr>
+            <!-- MOBILE -->
+            <tr>
+                <td><label for="number">MOBILE NUMBER</label></td>
+                <td><input type="number" id="number">&lpar;10 digit number&rpar;</td>
+            </tr>
+            <tr>
+                <!-- GENDER -->
+                <td>
+                    <P>GENDER</P>
+                </td>
+                <td>
+                    <label for="male">MALE</label>
+                    <input type="radio" id="male" name="gender">
+                    <label for="female">FEMALE</label>
+                    <input type="radio" id="female" name="gender">
+                </td>
+            </tr>
+            <!-- ADDRESS -->
+            <tr>
+                <td valign="top">
+                    <label for="address">ADDRESS</label>
+                </td>
+                <td><textarea name="" id="address" cols="30" rows="5"></textarea></td>
+            </tr>
+            <!-- CITY -->
+            <tr>
+                <TD><label for="mycity">CITY</label></TD>
+                <TD><input type="text" id="mycity">&lpar;max 30 characters a&dash;z and A&dash;Z&rpar;</TD>
+            </tr>
+            <!-- PIN CODE -->
+            <tr>
+                <TD><label for="pincode">PIN CODE</label></TD>
+                <TD><input type="text" id="pincode">&lpar;6 digit number&rpar;</TD>
+            </tr>
+            <!-- STATE -->
+            <tr>
+                <TD><label for="mystate">STATE</label></TD>
+                <TD><input type="text" id="mystate">&lpar;max 30 characters a&dash;z and A&dash;Z&rpar;</TD>
+            </tr>
+            <!-- COUNTRY -->
+            <tr>
+                <TD><label for="mycountry">COUNTRY</label></TD>
+                <TD><input type="text" id="mycountry"></TD>
+            </tr>
+            <!-- HOBBIES -->
+            <tr>
+                <TD><p>HOBBIES</p></TD>
+                <TD>
+                    <label for="drawing">Drawing</label>
+                    <input type="checkbox" id="drawing">
+                    <label for="Sing">Singing</label>
+                    <input type="checkbox" id="Sing">
+                    <label for="dance">Dancing</label>
+                    <input type="checkbox" id="dance">
+                    <label for="sketch">Sketching</label>
+                    <input type="checkbox" id="sketch"><br>
+                    <label for="others">Others</label>
+                    <input type="checkbox" id="others"><input type="text" id="others">
+                </TD>
+            </tr>
+            <tr>
+                <td valign="top ">QUALIFICATION</td>
+                <td>
+                    <table>
+                        <thead>
+                            <tr align="center">
+                                <td>Sr&period;No&period;</td>
+                            <td>Examination</td>
+                            <td>Board</td>
+                            <td>Percentage</td>
+                            <td>Year of passing</td>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td>Class X</td>
+                                <td><input type="text"></td>
+                                <td><input type="text"></td>
+                                <td><input type="text"></td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>Class XII</td>
+                                <td><input type="text"></td>
+                                <td><input type="text"></td>
+                                <td><input type="text"></td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>Graduation</td>
+                                <td><input type="text"></td>
+                                <td><input type="text"></td>
+                                <td><input type="text"></td>
+                            </tr>
+                            <tr>
+                                <td>4</td>
+                                <td>Masters</td>
+                                <td><input type="text"></td>
+                                <td><input type="text"></td>
+                                <td><input type="text"></td>
+                            </tr>
+                            <tr align="center">
+                                <td></td>
+                                <td></td>
+                                <td>&lpar;10 char max&rpar;</td>
+                                <td>&lpar;upto 2 decimal&rpar;</td>
+                                <td></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td><P>COURSES APPLIED FOR</P></td>
+                <td>
+                    <!-- BCA -->
+                    <label for="bca">BCA</label>
+                    <input type="radio" id="bca" name="courses">
+                    <!-- B.COM -->
+                    <label for="Bcom">B&period;COM</label>
+                    <input type="radio" id="Bcom" name="courses">
+                    <!-- B.SC -->
+                    <label for="bsc">B&period;Sc</label>
+                    <input type="radio" id="bsc" name="courses">
+                    <!-- B.A -->
+                    <label for="ba">B&period;A</label>
+                    <input type="radio" id="ba" name="courses">
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><button>Submit</button> <button>Reset</button> </td>
+                <td></td>
+                
+            </tr>
+            
+        </tbody>
+    </table>
+
+ </form>
+    
+</body>
+</html>
