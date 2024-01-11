@@ -13,8 +13,8 @@ hr{
 .coolink{
     text-decoration: none;
     color: #CDB598;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
+    font: 16px  Arial, Helvetica, sans-serif;
+    
 }
 .bintop{
     padding: 0px 16px 32px 16px;
@@ -35,23 +35,18 @@ background-color: white;
 }
 .browntxt{
     color: #CDB598;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
+    font: 16px Arial, Helvetica, sans-serif;
     text-decoration: none;
 }
 .big{
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 44px;
     display: inline;
-    font-weight: 500;
+    font: 500 44px Georgia, 'Times New Roman', Times, serif;
 }
 tr td p{
     font-family: Arial, Helvetica, sans-serif;
 }
 .medium {
-    font-size: x-large;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    
+    font: x-large Georgia, 'Times New Roman', Times, serif;
 }
 .brown {
     font-family: Arial, Helvetica, sans-serif;

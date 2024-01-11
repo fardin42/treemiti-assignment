@@ -1,0 +1,42 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+#flower {
+    background-image: url(https://tlr.stripocdn.email/content/guids/CABINET_b9171f1ae7aa17893d6177b307d3fcd3/images/pexelsdavidbartus2379653.jpg);
+    background-size: 100%;
+}
+.greymatt{
+color:#999999 ;
+}
+.grey444{
+    color: #444444;
+}
+.grey666{
+    color: #666666;
+}
+hr{
+border: solid 2px #e1e1e1;
+
+}
+.fatface{
+   
+    font: 400 40px 'Abril Fatface', serif;
+    
+}
+.fatlow{
+    font: 400 24px 'Abril Fatface', serif;
+}
+.btnk{
+   border: none;
+   border-radius: 16px;
+   padding: 16px 44px; 
+   background-color: #444444;
+   color: white;
+   font: 400 20px 'Abril Fatface', serif;
+}
