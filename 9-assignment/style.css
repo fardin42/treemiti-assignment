@@ -1,0 +1,59 @@
+body {
+    background-image: url(https://tlr.stripocdn.email/content/guids/CABINET_efb9a19dd830d890953bcfb4db635477/images/yeonheerqfi4mybgx8unsplash_1.jpg);
+}
+#wrapper{
+    background-color: white;
+}
+.gspot {
+    background-color: #f8f8f8;
+}
+hr{
+    border-color: #cdb598c3;
+}
+.coolink{
+    text-decoration: none;
+    color: #CDB598;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+.bintop{
+    padding: 0px 16px 32px 16px;
+}
+.inln{
+    display: inline;
+}
+.btn{
+
+border: solid 2px #cdb598;
+color: #cdb598;
+padding: 15px 30px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+background-color: white;
+}
+.browntxt{
+    color: #CDB598;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+}
+.big{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 44px;
+    display: inline;
+    font-weight: 500;
+}
+tr td p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.medium {
+    font-size: x-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+.brown {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #CDB598;
+}
