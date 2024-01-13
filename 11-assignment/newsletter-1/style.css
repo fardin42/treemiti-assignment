@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Parisienne&display=swap');
+
+
+*{
+    text-decoration: none;
+    font:400 12px 'Montserrat', sans-serif;
+}
+body{
+background-color: #3c2f26;
+padding: 0px;
+margin: 0px;
+}
+#wrapper{
+    background-color:#e6d9d0;
+}
+.navi{
+    color: #3c2f26;
+}
+
+.iconsize{
+    width: 24px;
+}
+header{
+    border-bottom: solid 2px #3c2f26;
+  
+}
+button{
+    border: 2px solid #3c2f26;
+    border-radius: 24px;
+    background-color: #e6d9d0;
+    font: 600 24px ;
+    padding: 12px 24px;
+
+}
+article p{
+    font:400 16px 'Montserrat', sans-serif;
+    display: inline;
+}
+h3{
+    display: inline;
+    font:400 40px 'Parisienne', cursive;
+}
+#blradius{
+    border-bottom-right-radius: 100px;
+}
+.sanji{
+    border-radius: 50px 50px 0px;
+}
+.curse2{
+    font: 400 24px 'Parisienne', cursive;
+}
+.boldie{
+    font: bolder 16px 'Montserrat', sans-serif;
+}
+
+.leftstud{
+    width: 270px;
+    height: 345px;
+    border-top-left-radius: 20%;
+    padding: 10px;  
+}
+.leftbud{
+    width: 270px;
+    height: 321px;
+   border-bottom-left-radius: 20%;
+   padding: 10px;
+}
+
+.rightstud{
+    width: 270px;
+    height: 321px;
+    border-top-right-radius: 20%;
+    padding: 10px;  
+}
+.rightbud{
+    width: 270px;
+    height: 345px;
+   border-bottom-right-radius: 20%;
+   padding: 10px; 
+}
+
+.curly{
+    padding-top: 15px;
+    width: 174px;
+    background-color: white;
+    border-radius: 100px 100px 0px 50px;
+}
+article p {
+    font-size: 13px;
+}
+.barrack{
+    border: solid  1px #3c2f26;
+    border-width: 0px 2px;
+}
+.tfoot{
+    padding: 10px 0px 40px;
+}
+.bootom{
+    padding-bottom: 40px;
+}
