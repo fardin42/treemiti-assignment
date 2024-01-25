@@ -10,6 +10,8 @@
     box-sizing: border-box;
     border-radius: 25px;
     border: 4px solid rgb(152, 148, 148);
+    width:321px;
+    
     
 }
 
@@ -62,6 +64,7 @@ tr td img{
 .card{
     background-color:#111727;
     border-radius: 25px;   
+    width:321px;
 }
 .gecko{
     color: #b7ef42;
