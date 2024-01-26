@@ -1,0 +1,30 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 1920px;
+    height: 100vh;
+    background-image: url(../media/ground.png);
+    background-repeat: no-repeat;
+    background-size: cover
+}
+.bg-black{
+    background-color: rgb(46, 45, 45);
+}
+.ball{
+    background: black url(../media/0Asset\ 2@0.75x-8.png) no-repeat center;
+    background-size: 85px;
+}
+.char{
+    background:  url(../media/0footballer@0.75x-8.png) no-repeat bottom left;
+}
+.goalnet{
+    
+    background: url(../media/goalnet.png) no-repeat;
+    background-size: 500px; 
+}
+.winner{
+    background: url(../media/Special-Text-Style-Effect.png) no-repeat;
+    background-size: 400px;
+}
