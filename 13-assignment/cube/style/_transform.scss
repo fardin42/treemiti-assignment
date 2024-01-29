@@ -1,0 +1,15 @@
+.top{
+    transform: translateX(185px) translateY(142px) rotate(150deg) skewX(30deg) skewY(0deg) ;
+}
+.left{
+    transform: translateX(100px)translateY(100px)skewY(30deg);
+}
+.right{
+    transform: translateX(300px)translateY(-100px) skewY(150deg);
+}
+.container{
+    transform: translateY(-500px);
+}
+.copy{
+    transform: translateY(186px) translateX(1px) rotateX(180deg);
+}
