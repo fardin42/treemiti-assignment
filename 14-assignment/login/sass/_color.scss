@@ -1,0 +1,26 @@
+
+body{
+    background-color: rgb(115, 115, 115);
+}
+.container{
+    background-color: white;
+    
+}
+.left{
+    background-color: aqua;
+    .grediant{
+        background: linear-gradient(#ffd9a300, #cd47fe5f, #4516f7);
+        opacity: 0.9;
+    }
+}
+div input[type=submit]{
+    background-color: #285ac4;
+    color: white;
+}
+Button{
+    background-color: white;
+    color: gray;
+    font-size: 20px;
+    border: 2px solid gray;
+}
+

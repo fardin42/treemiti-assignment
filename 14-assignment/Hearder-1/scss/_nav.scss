@@ -1,0 +1,28 @@
+nav{
+    display: inline;
+   
+    h1{
+        display: inline;
+    }
+    hgroup{
+        border-bottom: 2px solid grey;
+        position: relative;
+        ul{
+            display: inline;
+            li{
+                display: inline;
+                padding: 20px;
+            }
+        }
+        #nav-center{
+            position: absolute;
+            bottom: 0px;
+            margin-left: 12vw;
+        }
+    }
+}
+#nav-right{
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}

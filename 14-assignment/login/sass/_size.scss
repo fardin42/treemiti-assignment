@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1600px;
+    height: 900px;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    margin: auto;
+    box-sizing: border-box;
+    border-radius: 45px;
+    
+
+}
+
+// leftside of page 
+.left {
+    position: relative;
+    width: 55%;
+    height: 900px;
+
+    .grediant {
+        width: 100%;
+        height: 900px;
+        position: absolute;
+    }
+
+}
+
+.left img {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+
+
+}
+
+// Right side of login page
+.right {
+
+    width: 45%;
+    height: 900px;
+    margin: auto;
+    margin-left: 200px;
+
+}
+
+hgroup .logo img {
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin: auto;
+
+}
+
+form {
+    width: 420px;
+    height: 300px;
+    position: relative;
+}
+
+
+.inline {
+    display: inline;
+}
+
+Button {
+    width: 336px;
+    height: 50px;
+    margin: 138px 66px;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+    img{
+        height: 32px;
+        width: 32px;
+        transform: translateY(10px);
+    }
+    span {
+        padding-top: 22px;
+        text-align: center;
+        line-height: 1em;
+    }
+    
+}

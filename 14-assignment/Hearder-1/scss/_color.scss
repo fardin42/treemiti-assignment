@@ -1,0 +1,57 @@
+body{
+    background-color: crimson;
+}
+header{
+    background-color: white;
+    border-radius: 50px  50px 0px 0px;
+}
+.flower{
+    width: 80px;
+    height: 80px;
+   background-image: url(/media/klipartz.com.png); 
+   background-size: cover;
+}
+.title{
+    background-color: crimson;
+    color: white;
+    box-sizing: border-box;
+    border-radius: 60px;
+}
+.fasion{
+    border-radius: 0px 0px 60px 60px;
+    position: absolute;
+    width: 400px;
+    height: auto;
+    top: 13vh;
+    left: 20vw;
+}
+
+.simple{
+    
+    font-size:20px;
+    color: black;
+    position: absolute;
+    top: 28vh;
+}
+.left-side{
+    width: 15vw;
+    height: 60vh;
+   
+}
+.middle{
+    width: 45vw;
+    height: 60vh;
+    background-image: url(../media/Screenshot\ 2024-02-02\ 133918.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.right-side{
+    width: 15vw;
+    height: 40vh;
+    
+}
+.new-collection{
+    border: 2px solid crimson;
+    color: crimson;
+    border-radius: 20px;
+}

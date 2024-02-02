@@ -1,0 +1,37 @@
+
+.input-group{
+    position: relative;
+    width: 120px;
+    height: 60px;
+}
+.input{
+    
+    padding: 10px;
+    width: 342px;
+    box-sizing: border-box;
+    outline: none;
+    border: 1px solid gray;
+    border-radius: 10px;
+    margin:0px 66px;
+
+}
+.label{
+    position: absolute;
+    top: 10px;
+    left: 107px;
+    transition: 0.2s ease;
+    pointer-events: none;
+    color: grey;
+    
+}
+.input:focus{
+    border: 2px solid aqua;
+}
+.input:focus + .label{
+    top: -10px;
+    color: aqua;
+    background-color: #fff;
+}
+.input:hover{
+    border: 2px solid aqua;
+}
